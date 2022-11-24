@@ -10,6 +10,9 @@
     display: flex;
   }
 }
+#titulo{
+    margin-bottom: 12%;
+}
 .texto {
   margin: 5%;
   margin-top: 8%;
@@ -260,4 +263,8 @@ footer {
   .imgtest {
     width: 30vw;
   }
+}
+#rodape{
+    color: black;
+    text-align: justify;
 }

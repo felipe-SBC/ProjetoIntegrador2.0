@@ -2,183 +2,143 @@
 
 <html lang="pt-br">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Home</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta tag rel="autor" name="Lucas Chaves do Nascimento">
-  <meta tag rel="autor" name="Felipe Soares Batista da Cruz">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/FrontEnd/css/home.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta tag rel="autor" name="Lucas Chaves do Nascimento">
+        <meta tag rel="autor" name="Felipe Soares Batista da Cruz">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/FrontEnd/css/home.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </head>
 
-<body>
+    <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light" id="nav" style=" background-color: #FFF5EE">
-    <a class="navbar-brand" href="/FrontEnd/html/home.html">BestChoice</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item ">
-          <a class="nav-link" href="#titulo">Plataforma</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Clientes</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Pesquisas
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <h6 class="dropdown-header">Tipos de pesquisa</h6>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="">Pesquisa NPS</a>
-            <a class="dropdown-item" href="">Pesquisa CES</a>
-            <a class="dropdown-item" href="">Pesquisa CSAT</a>
-          </div>
-        </li>
-      </ul>
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav" style=" background-color: #FFF5EE">
+            <a class="navbar-brand" href="/FrontEnd/html/home.html">BestChoice</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#caixas">Plataforma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rodape">Sobre nós</a>
+                    </li>
+                </ul>
 
-      <div class="ladinho">
-        <a href="/FrontEnd/html/login.html"
-        style="text-decoration:none"><button type="button" class="btn btn-outline-dark  mr-3 ">Login</button></a>
-            <a href="/FrontEnd/html/cadastro.html"
-            style="text-decoration:none"> <button type="button" class="btn btn-outline-dark">Cadastre-se</button></a>
-      </div>
-      <!--fim nav-direita-->
-    </div>
-    <!--fim collapse navbar-collapse-->
-  </nav>
-  <!--fim nav-->
+                <div class="ladinho">
+                    <a href="/FrontEnd/html/login.html" style="text-decoration:none">
+                        <button type="button" class="btn btn-outline-dark  mr-3 ">Login</button>
+                    </a>
+                    <a href="/FrontEnd/html/cadastro.html" style="text-decoration:none">
+                        <button type="button" class="btn btn-outline-dark">Cadastre-se</button>
+                    </a>
+                </div>
+                <!--fim nav-direita-->
+            </div>
+            <!--fim collapse navbar-collapse-->
+        </nav>
+    <!--fim nav-->
 
-  <section class="fundo">
-    <div class="texto">
-      <h2 id="titulo" style="text-align: center;">SOS</h2>
-      <h3 style="text-align: center;">Search Of Success</h3>
-      <p>Atualmente a alta competitividade dos negócios está tendo uma volatilidade muito alta, e com isto o recurso
-        para conquistar novos consumidores ficou ainda mais escasso por causa dessa agressividade do mercado, muitas
-        empresas não conseguem ter uma grande gama de clientes por não fidelizá-los.
-      </p>
-    </div>
-    <div class="imgh">
-      <img src="/FrontEnd/img/Design.png">
-    </div>
-  </section><br><br><br><br>
-  <h1 class="titulo">Aproveite o melhor da plataforma!</h1>
-  <section class="balao">
-    <div class="container">
-      <div class="card">
-        <div class="img">
-          <img src="/FrontEnd/img/pngwing.com.png">
-        </div>
-        <br>
-        <h1>Gráficos inteligentes</h1>
-        <div class="content">
-          <p>
-            Através das pesquisas, são gerados gráficos que apresentam o
-            feedback do seus clientes sobre os serviços e/ou produtos da empresa.
+        <section class="fundo">
+            <div class="texto">
+                <h2 class="titulo">BestChoice</h2>
+                <p>Atualmente a alta competitividade dos negócios está tendo uma volatilidade muito alta, e com isto o recurso
+                    para conquistar novos consumidores ficou ainda mais escasso por causa dessa agressividade do mercado, muitas
+                    empresas não conseguem ter uma grande gama de clientes por não fidelizá-los.
+                </p>
+            </div>
+            <div class="imgh">
+                <img src="/FrontEnd/img/Design.png">
+            </div>
+        </section>
+        <!--Fim section-->
 
-          </p>
-        </div>
-      </div>
+        <h1 id="caixas" class="titulo">Aproveite o melhor da plataforma!</h1>
+        <section class="balao">
+            <div class="container">
+                <div class="card">
+                    <div class="img">
+                        <img src="/FrontEnd/img/pngwing.com.png">
+                    </div><br>
+                    <h1>Gráficos inteligentes</h1>
+                    <div class="content">
+                        <p> Através das pesquisas, são gerados gráficos que apresentam o feedback do seus clientes sobre os serviços e/ou produtos da empresa.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="/FrontEnd/img/3126647.png">
+                    </div>
+                    <h1>Pesquisas elaboradas para seus clientes</h1>
+                    <div class="content">
+                        <p>Tenha acesso aos melhores formulários elaborados para seus clientes, e escolha o modelo ideal que combine com sua empresa</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                    <img src="/FrontEnd/img/2972497.png">
+                    </div>
+                    <h1>Relatórios prontos para minimizar seu tempo</h1>
+                    <div class="content">
+                        <p>Otimize tempo com nossos relatórios inteligentes que possuem fácil manuseio e eficácia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <img src="includes/telaPrincipal/img/test.png" class="imgtest" alt="graficos"> -->
 
-      <div class="card">
-        <div class="img">
-          <img src="/FrontEnd/img/3126647.png">
-        </div>
-        <h1>Pesquisas elaboradas para seus clientes</h1>
-        <div class="content">
-          <p>
-            Tenha acesso aos melhores formulários elaborados para seus clientes, e escolha o modelo ideal que combine
-            com sua empresa
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="img">
-          <img src="/FrontEnd/img/2972497.png">
-        </div>
-        <h1>Relatórios prontos para minimizar seu tempo</h1>
-        <div class="content">
-          <p>
-            Otimize tempo com nossos relatórios inteligentes
-            que possuem fácil manuseio e eficácia
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- <img src="includes/telaPrincipal/img/test.png" class="imgtest" alt="graficos"> -->
-
-  <!--inicio fotter-->
-  <footer>
-    <div class="container-footer">
-      <div class="row-footer">
-        <!--  footer col -->
-        <div class="footer-col">
-          <h4>Empresa</h4>
-          <p class="rodape" style="color: black; text-align: justify;">
-            O objetivo do software é ajudar todos os funcionários, docentes e alunos a terem uma instituição em
-            constante processo de evolução, para que haja uma melhoria conjunta, então o principal objetivo desse
-            software é focado na instituição e em todas as suas partes, utilizando uma ferramenta de gestão do sucesso
-            do cliente para que o software seja um assistente de progressão, e assim conseguir que a instituição
-            (Fatec) se torne uma potência ainda maior de ensino e ainda seja uma maior referência entre todas as
-            instituições.
-          </p>
-        </div>
-        <!-- end footer col -->
-        <!--  footer col -->
-        <div class="footer-col">
-          <h4>Criadores</h4>
-          <div style="color: black; text-align:justify;">
-            <p>Lucas Chaves<br></p>
-            <p>Felipe Soares<br></p>
-          </div>
-        </div>
-        <!-- end footer col -->
-        <!--  footer col -->
-        <div class="footer-col">
-          <h4>Contatos</h4>
-          <p class="icone">
-            <a href=""><i class="fa fa-facebook"></i></a>Facebook<br>
-            <a href=""><i class="fa fa-instagram"></i></a>Instagram<br>
-            <a><i class="fa fa-phone"></i></a>(11)00000-0000<br>
-          </p>
-        </div>
-        <!-- end footer col -->
-        <!--  footer col -->
-        <div class="footer-col">
-          <h4>Mensagem</h4>
-          <!-- form sub -->
-
-          <div class="form-sub">
-            <form>
-              <input type="email" placeholder="Digite o seu e-mail" required><br><br>
-              <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="3"
-                cols="40"></textarea><br>
-              <button class="btn btn-outline-dark">Enviar</button>
-            </form>
-          </div>
-
-          <!-- end form sub -->
-
-        </div> <!-- end footer col -->
-      </div>
-    </div>
-  </footer>
-  <!--fim footer-->
-
-</body>
-
+        <!--inicio fotter-->
+        <footer>
+            <div class="container-footer">
+                <div class="row-footer">
+                <!--  footer col -->
+                    <div class="footer-col">
+                        <h4>Quem somos?</h4>
+                        <p id="rodape">O objetivo do software é ajudar todos os funcionários, docentes e alunos a terem uma instituição em
+                        constante processo de evolução, para que haja uma melhoria conjunta, então o principal objetivo desse
+                        software é focado na instituição e em todas as suas partes, utilizando uma ferramenta de gestão do sucesso
+                        do cliente para que o software seja um assistente de progressão, e assim conseguir que a instituição
+                        (Fatec) se torne uma potência ainda maior de ensino e ainda seja uma maior referência entre todas as
+                        instituições.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Criadores</h4>
+                        <div style="color: black; text-align:justify;">
+                            <p>Lucas Chaves<br></p>
+                            <p>Felipe Soares<br></p>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contatos</h4>
+                        <p class="icone">
+                            <a href=""><i class="fa fa-facebook"></i></a>Facebook<br>
+                            <a href=""><i class="fa fa-instagram"></i></a>Instagram<br>
+                            <a><i class="fa fa-phone"></i></a>(11)00000-0000<br>
+                        </p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Mensagem</h4>
+                        <div class="form-sub">
+                            <form>
+                                <input type="email" placeholder="Digite o seu e-mail" required><br><br>
+                                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="3"
+                                    cols="40"></textarea><br>
+                                <button class="btn btn-outline-dark">Enviar</button>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
