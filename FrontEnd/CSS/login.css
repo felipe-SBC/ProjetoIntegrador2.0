@@ -17,8 +17,9 @@ body {
 }
 
 .container {
-  max-width: 700px;
-  width: 100%;
+  max-width: 600px;
+  width: 30%;
+  margin-top: 10%;
   background-color: white;
   padding: 25px 30px;
   border-radius: 5px;
@@ -43,7 +44,7 @@ body {
 }
 
 .content form .detalhes_usuario {
-  display: flex;
+  display: inside;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 12px 0;
@@ -51,7 +52,7 @@ body {
 
 form .detalhes_usuario .input-box {
   margin-bottom: 15px;
-  width: calc(100% / 2 - 20px);
+  width: 100%;
 }
 
 form .input-box span.detalhes {
@@ -74,7 +75,7 @@ form .input-box span.detalhes {
 
 .detalhes_usuario .input-box input:focus,
 .detalhes_usuario .input-box input:valid {
-  border-color: #FFDAB9;
+  border-color: #000;
 }
 
 form .detalhes_genero .titulo_genero {
@@ -105,19 +106,13 @@ form .categoria label .ponto {
   transition: all 0.3s ease;
 }
 
-#ponto-1:checked ~ .categoria label .um,
-#ponto-2:checked ~ .categoria label .dois,
-#ponto-3:checked ~ .categoria label .tres {
-  background-color: #ccc;
-  background: #71b7e6;
-}
-
 form input[type="radio"] {
   display: none;
 }
 
 .botao {
-  text-align: center;
+    margin-top: 6%;
+    text-align: center;
 }
 
 @media (max-width: 584px) {
@@ -164,4 +159,8 @@ a{
   }
 .link_home :hover{
     color: #DC143C;
+}
+.link_cad{
+    margin-top: 6%;
+    text-align: center;
 }

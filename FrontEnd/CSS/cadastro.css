@@ -74,7 +74,7 @@ form .input-box span.detalhes {
 
 .detalhes_usuario .input-box input:focus,
 .detalhes_usuario .input-box input:valid {
-  border-color: #FFDAB9;
+  border-color: #000;
 }
 
 form .detalhes_genero .titulo_genero {
