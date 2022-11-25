@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  font-family: "PT Sans", sans-serif;
+}
+
+body{
+  background-color: #FFF5EE;
+}
+@media (min-width: 768px) {
+    .logo {
+      margin-left: 45%;
+      position: relative;
+      display: flex;
+      margin-bottom: 0%;
+    }
+}
+.container {
+    max-width: 70%;
+    width: 70%;
+    height: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+h1{
+    display: block;
+    text-align: right;
+    margin-right: 5%;
+}
+img{
+    display: inline-block;
+    width: 420px;
+    height: 450px;
+    padding-top: 12px;
+    margin-left: 4%;
+}
+
+.descricao{
+    display: inline-block;
+    max-width: 30%;
+    text-align: justify;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+.rodape_desc{
+    text-align: right;
+}
+@media (min-width: 768px) {
+    .ladinho {
+      margin-left: auto;
+      position: relative;
+      display: flex;
+    }
+}
+a{
+    color:black;
+}
