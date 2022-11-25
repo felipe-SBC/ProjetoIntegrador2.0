@@ -23,7 +23,9 @@ body {
   background-color: white;
   padding: 25px 30px;
   border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15); 
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
 }
 
 .container .titulo {
@@ -157,9 +159,7 @@ a{
     font-size: 18px;
     margin-top: 20px;
   }
-.link_home :hover{
-    color: #DC143C;
-}
+  
 .link_cad{
     margin-top: 6%;
     text-align: center;

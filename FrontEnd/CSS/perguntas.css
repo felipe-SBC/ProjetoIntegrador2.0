@@ -1,10 +1,12 @@
-html {
-    background-color: #56baed;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+* {
+  font-family: "PT Sans", sans-serif;
 }
 
 body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
+    background-color: #FFF5EE;
 }
 
 a {
@@ -24,7 +26,6 @@ h2 {
     color: #cccccc;
 }
 
-
 /* STRUCTURE */
 
 .wrapper {
@@ -35,6 +36,7 @@ h2 {
     width: 100%;
     min-height: 100%;
     padding: 20px;
+    background-color: #FFF5EE;
 }
 
 #formContent {
@@ -52,7 +54,7 @@ h2 {
 }
 
 #formFooter {
-    background-color: #f6f6f6;
+    background-color: #FFF5EE;
     border-top: 1px solid #dce8f1;
     padding: 25px;
     text-align: center;
@@ -83,12 +85,12 @@ button[type=button] {
     padding: 15px 80px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     text-transform: uppercase;
     font-size: 13px;
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
-    margin: 5px 20px 40px 20px;
+    margin: 5px 20px 10px 20px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -269,8 +271,6 @@ input[type=text]:placeholder {
 h1 {
     color: #60a0ff;
 }
-
-
 /* OTHERS */
 
 *:focus {
@@ -279,4 +279,12 @@ h1 {
 
 #icon {
     width: 30%;
+}
+.logout{
+    margin-right: 2%;
+    margin-top: 2%;
+    text-align: right;
+}
+.logout :not(:hover){
+    color: #000;
 }
